@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.main`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,4 +8,6 @@ export const Container = styled.div`
   justify-content: center;
   font-size: calc(10px + 2vmin);
   text-align: center;
+  color: black;
+  background: var(--background-base);
 `;

@@ -11,9 +11,11 @@ export default createGlobalStyle`
 :root{
 
 	--background-base: #6495ED;
+	--background-section: #7B68EE;
 	--color-button:#87CEEB;
 	--color-fonts:#FFA500;
 	--color-details: #FF4500;
+	--color-font-title:#2F4F4F;
 }
 body{
 	font-family: "PT Serif", serif;
