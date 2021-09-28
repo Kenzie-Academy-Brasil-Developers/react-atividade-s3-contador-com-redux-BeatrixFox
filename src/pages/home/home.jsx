@@ -1,5 +1,13 @@
+import CounterButton from "./../../components/CounterButton/CounterButton";
+import Display from "./../../components/Display/Display";
+
 const Home = () => {
-  return;
+  return (
+    <>
+      <Display></Display>
+      <CounterButton></CounterButton>
+    </>
+  );
 };
 
 export default Home;
